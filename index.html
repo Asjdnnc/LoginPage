@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div id="bigbox">
+        <div id="textbox">
+          <img src="logo.png">
+            <h2>
+                Hello<br>
+                Welcome!!
+            </h2>
+            <div id="text1">
+            <p>This is login page made using languages like HTML,CSS,Javascript,Node JS and MySQL</p>
+            <p>Page has some features like password show button and register button</p>
+            <p><b>Login to get access</b></p>
+            </div>
+             </div>
+        <div id="smallbox">
+            <h2>Login</h2>
+             <form id="loginForm" onsubmit="return login()">
+             <label class="label" for="username">Username:</label><br>
+             <input type="text" class="input" id="username" name="username" required><br><br>
+             <label class="label" for="password">Password:</label><br>
+             <input type="password" class="input"id="password" name="password" required>
+             <span class="toggle-password" onclick="togglePasswordVisibility()">
+              <i class="fa fa-eye" id="eye"></i>
+          </span>
+          <br><br>
+             <input type="submit" class="submit" value="Submit"><br>
+             <a href="http://localhost:3000/register"><span id="t">Not a member yet?</span> Sign up</a>
+             </form>
+             <p id="message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

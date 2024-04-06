@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registerstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+        <div id="box2">
+            <h1>Create a new account</h1>
+            <form id="registerForm" action="/register" method="POST" onsubmit="return register()">
+                <label for="username" class="label">Username:</label><br>
+                <input class="input" id="username"type="text" name="username" required><br>
+                <label class="label" for="password">Password: </label><br>
+                <input class="input"type="password" id="password" name="password">
+                <span class="toggle-password" onclick="togglePasswordVisibility()">
+                    <i class="fa fa-eye" id="eye"></i></span><br>
+                <button type="submit"value="register">Register</button>
+            </form>
+            <p id="message"></p>
+            <img src="register.jpg">
+        </div>  
+        <script src="register.js"></script>      
+</body>
+</html>

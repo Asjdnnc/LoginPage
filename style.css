@@ -1,0 +1,103 @@
+#bigbox{
+    display:flex;
+    background-color: #dde7f0;
+    border-radius: 10px;
+    height:600px;
+    margin:50px;
+    margin-top: 70px;
+}
+#textbox{
+width:850px;
+}
+img{
+    mix-blend-mode: multiply ;
+    height:70px;
+    width:70px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#textbox h2 {
+    margin-left:190px;
+    font-size:45px;
+    margin-top:50px;
+}
+#text1 {
+    margin-left:190px;
+    margin-top: 72px;
+}
+#text1 p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #011b31;
+}
+#smallbox{
+    margin-left: 50px;
+    width:400px;
+    height:470px;
+    margin-right: 40px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: #60A3D9;
+    padding-left: 30px;
+    box-shadow: 8px 8px 7px rgb(124, 124, 124);
+}
+.input{
+    margin-left: 20px;
+    width:75%;
+    height:35px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left:20px;
+    background-color: #e9ecf0;
+    cursor: pointer;
+}
+.label{
+    margin-left: 14px;
+    font-size: 20px;
+}
+#smallbox h2{
+    margin-top: 40px;
+    margin-left: 140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    }
+    .toggle-password {
+        position:relative;
+        left:-40px;
+        top:2.5px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+.submit{
+    background-color: #0074B7;
+    color: white;
+    margin-top: 30px;
+    width:80%;
+    height:38px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 13px;
+    transition: 0.3s;
+    border:none;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color:#003B73;
+}
+a{
+    margin-left: 180px;
+    font-size: 14px;
+    color: #01172f;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#message{
+    margin-left :25px;
+}
+#loginform input{
+    padding-left:20px;
+}
