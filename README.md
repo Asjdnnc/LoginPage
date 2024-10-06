@@ -15,8 +15,9 @@ Install the dependencies:
 npm install
 Set up MySQL:
 
-# Create a new MySQL database named login.
-# Update the MySQL connection details in index.js (host, user, password, database).
+Create a new MySQL database named login.
+Update the MySQL connection details in index.js (host, user, password, database).
+
 # Initialize the database:
 
 CREATE TABLE users (
@@ -24,11 +25,10 @@ CREATE TABLE users (
     username VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
 );
+
 # Usage
 Start the server:
-
 node index.js
 Open your browser and go to http://localhost:3000/register to access the registration page.
-
 Register a new user and then go to http://localhost:3000/login to access the login page.
 
