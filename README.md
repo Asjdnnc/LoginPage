@@ -1,7 +1,7 @@
-LoginPage
+# LoginPage
 This repository contains a login page application built with Express.js, MySQL, and EJS. The application includes user registration and login functionalities.
 
-Requirements
+# Requirements
 Node.js
 MySQL
 Installation
@@ -11,19 +11,19 @@ git clone https://github.com/Asjdnnc/LoginPage.git
 cd LoginPage
 Install the dependencies:
 
-npm install
+#npm install
 Set up MySQL:
 
-Create a new MySQL database named login.
-Update the MySQL connection details in index.js (host, user, password, database).
+#Create a new MySQL database named login.
+#Update the MySQL connection details in index.js (host, user, password, database).
 Initialize the database:
 
-CREATE TABLE users (
+#CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
 );
-Usage
+#Usage
 Start the server:
 
 node index.js
